@@ -1,0 +1,139 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --primary: #1F2248;
+  --secondary: #EA4C7C;
+  --tertiary: #FBD6CC;
+  --extra: #F8C4B5;
+  --title-font: 'Merriweather Sans', sans-serif;
+  --paragraph-font: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--title-font);
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  padding: 10px;
+}
+
+.anuncio {
+  background-color: var(--secondary);
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  width: 100%;
+}
+/* modificación de la barra superior*/
+.anuncio {
+  background-color: var(--secondary);
+  margin: 0%;
+  padding: 10;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: var(--white);
+  width: 100%;
+}
+
+.anuncio p {
+  margin: 0;
+  padding-right: 550px; /* Ajusta este valor según sea necesario */
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.social-icons a {
+  margin-left: 15px;
+  color: var(--tertiary);
+  font-size: 1.4em;
+}
+
+
+.bar-options {
+  background-color: var(--primary);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bar-options {
+  background-color: var(--primary);
+  padding-top: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.bar-options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.bar-options ul li {
+  margin: 0 10px;
+  padding-left: 20px;
+  color: var(--white);
+  font-size: 1.1em;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box i {
+  color: var(--white);
+}
+
+.search-box input {
+  border: none;
+  padding: 10px;
+  margin-right: 25px;
+  border-radius: 25px;
+  outline: none;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.search-box i {
+  
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: var(--white);
+}
